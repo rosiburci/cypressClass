@@ -7,6 +7,8 @@ describe('secondTask', ()=> {
     beforeEach(() => {
         cy.visit(Cypress.env("phpTravels"))
 
+        
+
     })
 
     it('Sucess', ()=>{
