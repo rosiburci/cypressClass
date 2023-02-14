@@ -8,7 +8,7 @@ module.exports = defineConfig({
       sauceDemo: "https://www.saucedemo.com/",
       todoMVC: "https://todomvc.com/examples/vanillajs/",
       phpTravels: "https://phptravels.com/demo/",
-      herokuapp: "http://the-internet.herokuapp.com/"
+      herokuapp: "http://the-internet.herokuapp.com"
     },
   }
 }) 

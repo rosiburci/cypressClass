@@ -2,5 +2,9 @@
   "name": "We have sent your demo credentials to your email please check your email to test demo website. if message not found inbox please check spam folder",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
-  "errorScLock": "Epic sadface: Sorry, this user has been locked out."
+  "errorScLock": "Epic sadface: Sorry, this user has been locked out.",
+  "basicASucM1": "Basic Auth",
+  "basicASucM2": "\n    Congratulations! You must have the proper credentials.\n  ",
+  "quantity": "7",
+  "quantity2": "3"
 }
