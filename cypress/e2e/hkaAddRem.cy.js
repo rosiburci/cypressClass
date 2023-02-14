@@ -10,7 +10,7 @@ describe('Hero Ku App Add Remove Elements', ()=> {
 
     })
 
-    it.only('Adding and removing x elements', ()=>{
+    it('Adding and removing x elements', ()=>{
 
         addElements(quant1.quantity)
         remElements(quant2.quantity2)
@@ -23,6 +23,8 @@ describe('Hero Ku App Add Remove Elements', ()=> {
 
         addElements(4)
         addrem.remAllElem()
+        cy.get('button[onclick="deleteElement()"]').should('not.exist')
+
 
 
     })
